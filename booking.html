@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Book a tour with us today" />
-    <title>Community Science Museum | Booking</title>
+    <title>CSM | Booking</title>
     <link href="css/styles.css" rel="stylechseet">
     <script src="https://kit.fontawesome.com/b57dd120a2.js" crossorigin="anonymous"></script>
 </head>
@@ -31,11 +31,26 @@
             <img src=" " alt="">
         </section>
     </header>
-    <main>
-
-    </main>
+    <main class="booking">
+        <h1>Booking</h1>
+        <form method="POST">
+            <div class="form-wrapper">
+              <section>
+                  <label for="name">Full Name</label>
+                  <input type="text" id="name" name="Name">
+                  <label for="email">Email</label>
+                  <input type="email" id="email" name="Email">
+                </section>
+                <section>
+                    <label for="message">Pease tell us what date and how many that will be attending</label>
+                    <textarea id="message" name="message"></textarea>
+                </section>
+            </div>
+            <input type="submit" value="Send Now" class="send"/>
+        </form>
+      </main>
     <footer>
-
+        Copyright &copy;
     </footer>
 </body>
 </html>
