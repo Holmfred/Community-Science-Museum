@@ -1,7 +1,31 @@
 header {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    background: #D1D0C1;
+    background-color: #D1D0C1;
+    display: inline-block;
 }
 
+.searchbar_line {
+    background-color: #807F75;
+}
+
+
+.cta-button {
+    background-color: #D1D0C1;
+    min-width: 325px;
+}
+
+#hamburger-menu {
+    display: none;
+}
+
+#hamburger-menu:checked ~ nav {
+    display: block;
+}
+
+nav {
+    display: none;
+}
+
+nav li {
+    display: block;
+    padding: 10px;
+}
