@@ -3,5 +3,18 @@
 }
 
 @media (min-width: 800px) {
+    h1 {
+        font-size: 80px;
+        text-align: center;
+    }
     
+    h2 {
+        font-size: 60px;
+        text-align: center;
+    }
+    
+    h3 {
+        font-size: 40px;
+        text-align: center;
+    }
 }
