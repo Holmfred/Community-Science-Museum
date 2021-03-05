@@ -21,8 +21,21 @@ header {
     background-color: #D1D0C1;
 }
 
+.upper-header {
+    height: 100px
+}
+
 .searchbar_line {
     background-color: #807F75;
+    height: 50px;
+    text-align: center;
+}
+
+.searchbar {
+    width: 300px;
+    border-radius: 10px;
+    border: 0px; 
+    height: 30px;
 }
 
 
@@ -62,4 +75,12 @@ nav {
 nav li {
     display: block;
     padding: 10px;
+}
+
+footer {
+    background: #807F75;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 10px;
+    font-size: 15px;
 }
