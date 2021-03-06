@@ -1,0 +1,16 @@
+.cta-button {
+    background-color: #D1D0C1;
+    border-radius: 20px;
+    padding: 15px 60px;
+    font-size: 25px;
+}
+
+a {
+    text-decoration: none;
+    color: #0d0d0d;
+}
+
+.cta-info {
+    margin-top: 50px;
+    text-align: center;
+}

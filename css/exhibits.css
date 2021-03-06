@@ -1,11 +1,28 @@
-.top,
-.evolution,
-.robotics {
-    background: #f2f2f2;
-}
-
 .cosmology,
 .biology,
 .ecology {
     background: #e1e1e1;
+    padding-top: 5px;
+}
+
+.cosmology-content,
+.evolution-content,
+.biology-content,
+.robotics-content,
+.ecology-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 350px;
+    margin: auto;
+    padding: 25px;
+}
+
+.exhibition-cosmology,
+.exhibition-evolution,
+.exhibition-biology,
+.exhibition-robotics,
+.exhibition-ecology {
+    max-width: 312px;
+    border-radius: 15px;
 }

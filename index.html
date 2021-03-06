@@ -13,26 +13,30 @@
 <body>
     <header>
         <section class="logo_full">
-            <a href="index.html" class="logo"><img src="/images/logo.png" alt="logo"></a>
-            <a href="index.html" Class="logo_text">Community Science Museum</a>
-            <label for="hamburger-menu"><i class="fas fa-bars"></i></label>
-            <input type="checkbox" id="hamburger-menu" />
-            <nav>
-               <ul>
-                    <li><a href="exhibits.html" class="cta-menu">Exhibits</a></li>
-                    <li><a href="involved.html" class="cta-menu">Get Involved</a></li>
-                    <li><a href="explore.html" class="cta-menu">Explore</a></li>
-                    <li><a href="booking.html" class="cta-menu">Booking</a></li>
-                    <li><a href="contact.html" class="cta-menu">Contact Us</a></li>
-               </ul>
-            </nav>
+            <div>
+                <a href="index.html"><img src="/images/logo.png" alt="logo"></a>
+            </div>
+            <div>
+                <a href="index.html" Class="logo_text">Community Science Museum</a>
+            </div>
+            <div>
+                <label for="hamburger-menu"><i class="fas fa-bars"></i></label>
+                <input type="checkbox" id="hamburger-menu" />
+                <nav>
+                    <ul>
+                         <li><a href="exhibits.html" class="cta-menu">Exhibits</a></li>
+                         <li><a href="involved.html" class="cta-menu">Get Involved</a></li>
+                         <li><a href="explore.html" class="cta-menu">Explore</a></li>
+                         <li><a href="booking.html" class="cta-menu">Booking</a></li>
+                         <li><a href="contact.html" class="cta-menu">Contact Us</a></li>
+                    </ul>
+                 </nav>
+            </div>
         </section>
         <section class="searchbar_line">
             <input type="text" placeholder="Search..." class="searchbar">
         </section>
-        <section>
-            <img src="/images/Banner.jpg" alt="Banner" class="banner">
-        </section>
+        <section class="welcome"></section >
     </header>
     <main>
         <section class="top">
@@ -41,111 +45,164 @@
         </section>
         <section class="news">
             <h2>News & Announcements</h2>
-            <img src="/images/Professor.jpg" alt="Professor">
-            <h3>Visiting Professor of Aeronautics</h3>
-            <p>It is our pleasure to announce that Prof Sheila Widnall from the Massachusetts Institute 
-                of Technology will be delivering 3 lectures on the development of aeronautics and where the future 
-                lies in this exciting ‘space’.
-            </p>
-            <img src="/images/Night.jpg" alt="Night in the Museum">
-            <h3>Night in the Museum</h3>
-            <p>Get your family together for an exciting night in the museum as you sleep over beside dinosaurs 
-                and science displays. Bring your own sleeping bag and get ready to rough it 
-                as we go exploring the wonders of science.
-            </p>
+            <div class="news-content">
+                <img src="/images/Professor.jpg" alt="Professor" class="professor_img">
+                <div>
+                    <h3>Visiting Professor of Aeronautics</h3>
+                    <p>It is our pleasure to announce that Prof Sheila Widnall from the Massachusetts Institute 
+                        of Technology will be delivering 3 lectures on the development of aeronautics and where the future 
+                        lies in this exciting ‘space’.
+                    </p>
+                </div>
+            </div>
+            <div class="news-content">
+                <img src="/images/Night.jpg" alt="Night in the Museum" class="night_img">
+                <div>
+                    <h3>Night in the Museum</h3>
+                    <p>Get your family together for an exciting night in the museum as you sleep over beside dinosaurs 
+                    and science displays. Bring your own sleeping bag and get ready to rough it 
+                    as we go exploring the wonders of science.
+                    </p>
+                </div>
+            </div>
         </section>
         <section class="exhibits">
             <h2>Exhibits</h2>
-            <a href="exhibits.html"><img src="/images/Cosmology.jpg" alt="Cosmology">Cosmology</a>
-            <a href="exhibits.html"><img src="/images/Biology.jpg" alt="Biology & Medicine">Biology & Medicine</a>
-            <a href="exhibits.html"><img src="/images/Evolution.jpg" alt="Evolution">Evolution</a>
-            <a href="exhibits.html" class="cta-button">See More</a>
+        </section>
+        <section class="exhibits-content">
+            <div>
+                <a href="exhibits.html"><img src="/images/Cosmology.jpg" alt="Cosmology" class="cosmology_img"></a> 
+                <a href="exhibits.html">Cosmlology</a> 
+            </div>
+            <div>
+                <a href="exhibits.html"><img src="/images/Biology.jpg" alt="Biology & Medicine" class="biology_img"></a>
+                <a href="exhibits.html">Biology & Medicine</a>
+            </div>
+            <div>
+                <a href="exhibits.html"><img src="/images/Evolution.jpg" alt="Evolution" class="evolution_img"></a> 
+                <a href="exhibits.html">Evolution</a> 
+            </div>
+        </section>
+        <section>
+            <div class="cta-div">
+                <a href="exhibits.html" class="cta-button">See More</a>
+            </div>
         </section>
         <section class="explore">
-            <h2>Explore</h2>
-            <a href="explore.html"><img src="/images/Kids.jpg" alt="For Kids">For Kids</a>
-            <a href="explore.html"><img src="/images/Teacher.jpg" alt="For Teachers">For Teachers</a>
-            <a href="explore.html"><img src="/images/Researcher.png" alt="For Researchers">For Researchers</a>
-            <a href="explore.html" class="cta-button">See More</a>
-        </section>
+            <div>
+                <h2>Explore</h2>
+            </div>
+            <section class="explore-content">
+                <div>
+                    <a href="explore.html"><img src="/images/Kids.jpg" alt="For Kids" class="kids_img"></a>
+                    <a href="explore.html">For Kids</a>
+                </div>
+                <div>
+                    <a href="explore.html"><img src="/images/Teacher.jpg" alt="For Teachers" class="teachers_img"></a>
+                    <a href="explore.html">For Teachers</a>   
+                </div>
+                <div>
+                    <a href="explore.html"><img src="/images/Researcher.png" alt="For Researchers" class="researchers_img"></a>
+                    <a href="explore.html">For Researchers</a>
+                </div>
+            </section>
+            <section>
+                <div class="cta-div">
+                    <a href="explore.html" class="cta-button">See More</a>
+                </div>
+            </section>
+        </section>    
         <section class="about">
             <h2>About Us</h2>
-            <p>Over the course of human history, science has developed from
-                our early understanding of fire, wind, water, and earth to exploring
-                everything from galaxies far away to the very building blocks of life itself.
-                The aim of our museum is to create a space where everyone can experience
-                the wonders of our discoveries and perhaps even ignite a lifelong passion 
-                to continue the exploration of the world around us.
-
-                We believe science should not be confined to the textbook,
-                but brought to live through exhibits. This is why we have over 
-                1000 different exhibits on the many varied subjects of science to explore. 
-                Many of these exhibits are designed for you to interact with and
-                play around to see science come to life 
-                (apart from the dinosaur exhibits – they only come to life at night when everyone’s gone home).
-            </p>
-            <img src="/images/About.jpg" alt="About Us"/>
+            <section class="about-content">
+                <div>
+                    <p>Over the course of human history, science has developed from
+                        our early understanding of fire, wind, water, and earth to exploring
+                        everything from galaxies far away to the very building blocks of life itself.
+                        The aim of our museum is to create a space where everyone can experience
+                        the wonders of our discoveries and perhaps even ignite a lifelong passion 
+                        to continue the exploration of the world around us.
+                    </p>
+                    <p>We believe science should not be confined to the textbook,
+                        but brought to live through exhibits. This is why we have over 
+                        1000 different exhibits on the many varied subjects of science to explore. 
+                        Many of these exhibits are designed for you to interact with and
+                        play around to see science come to life 
+                        (apart from the dinosaur exhibits – they only come to life at night when everyone’s gone home).
+                    </p>
+                </div>
+                <div class="about-content_img">
+                    <img src="/images/About.jpg" alt="About Us" class="about_img"/>
+                </div>
+            </section>
         </section>
         <section class="information">
-            <h2>Information</h2>
-            <section>
-                <h3>Opening Hours</h3>
-                <Ul>
-                    <li>Monday: Closed</li>
-                    <li>Tuesday: 10:00 - 16:00</li>
-                    <li>Wednesday: 10:00 - 16:00</li>
-                    <li>Thursday: 10:00 - 16:00</li>
-                    <li>Friday: 10:00 - 19:00</li>
-                    <li>Saturday: 9:00 - 16:00</li>
-                    <li>Sunday: 9:00 - 13:00</li>
-                </Ul>
+                <div>
+                    <h2>Information</h2>
+                </div>
+            <section class="information-section">
+                <div>
+                    <h3>Opening Hours</h3>
+                    <Ul>
+                        <li>Monday: Closed</li>
+                        <li>Tuesday: 10:00 - 16:00</li>
+                        <li>Wednesday: 10:00 - 16:00</li>
+                        <li>Thursday: 10:00 - 16:00</li>
+                        <li>Friday: 10:00 - 19:00</li>
+                        <li>Saturday: 09:00 - 16:00</li>
+                        <li>Sunday: 09:00 - 13:00</li>
+                    </Ul>
+                </div>
+                <div>
+                    <h3>Location & Admission</h3>
+                    <img src="/images/Map.png" alt="Map">
+                    <p>The Museum is located at: 
+                        You Took The Wrong Turn 
+                        5 Streets Ago, New York
+                    </p>
+                    <h4>Admission</h4>
+                    <p>The entrance is free for all.
+        
+                    There are guided tours of the 
+                    museum that leave every hour. 
+                    These tours are 70 NOK per person 
+                    and include a handy 
+                    printed guide of the museum. 
+                    
+                    If you would like to organise a 
+                    guided tour for your group 
+                    of 6 or more people, please contact 
+                    us to arrange the tour.
+                    </p>
+                    <div class="cta-info">
+                        <a href="/booking.html" class="cta-button">Booking </a>
+                    </div>
+                </div>
+                <div class="facility">
+                    <h3>Our Facility</h3>
+                    <h4>Accessibility</h4>
+                    <p>The museum has wheelchair 
+                    accessibility ramps. It also has 
+                    audio guides and braille display 
+                    signs for the visually impaired.
+                    </p>
+                    <h4>Food & Drink</h4>
+                    <p>There is a café attached to the 
+                    museum where you can get 
+                    light lunches, soft drinks, coffee, 
+                    snacks and more.
+                    </p>
+                    <h4>Shop</h4> 
+                    <p>Our shop offers a range of 
+                    memorabilia from the museum 
+                    as well as great gifts and activity 
+                    packs that allow you to continue to 
+                    explore science even after 
+                    you’ve left the museum.
+                    </p>
+                </div>
             </section>
-            <section>
-                <h3>Location & Admission</h3>
-                <img src="/images/Map.png" alt="Map">
-                <p>The Museum is located at: 
-                    You Took The Wrong Turn 
-                    5 Streets Ago, New York
-                </p>
-                <h4>Admission</h4>
-                <p>The entrance is free for all.
-    
-                   There are guided tours of the 
-                   museum that leave every hour. 
-                   These tours are 70 NOK per person 
-                   and include a handy 
-                   printed guide of the museum. 
-                   
-                   If you would like to organise a 
-                   guided tour for your group 
-                   of 6 or more people, please contact 
-                   us to arrange the tour.
-               </p>
-               <a href="/booking.html" class="cta-button">Booking </a>
-            </section>
-            <section>
-                <h3>Our Facility</h3>
-                <h4>Accessibility</h4>
-                <p>The museum has wheelchair 
-                accessibility ramps. It also has 
-                audio guides and braille display 
-                signs for the visually impaired.
-                </p>
-                <h4>Food & Drink</h4>
-                <p>There is a café attached to the 
-                museum where you can get 
-                light lunches, soft drinks, coffee, 
-                snacks and more.
-                </p>
-                <h4>Shop</h4> 
-                <p>Our shop offers a range of 
-                memorabilia from the museum 
-                as well as great gifts and activity 
-                packs that allow you to continue to 
-                explore science even after 
-                you’ve left the museum.
-                </p>
-            </section>
+        </section>
     </main>
     <footer>
         Copyright &copy;

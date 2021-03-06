@@ -1,11 +1,118 @@
 .news, 
 .explore,
-.information{
+.information {
     background: #e1e1e1;
+    padding: 20px;
 }
 
-.top,
-.exhibits,
-.about {
-    background: #f2f2f2;
+.professor_img,
+.night_img {
+    max-width: 127px;
+    border-radius: 8px;
+    margin: auto;
 }
+
+.cosmology_img,
+.biology_img,
+.evolution_img {
+    max-width: 296px;
+    border-radius: 8px;
+}
+
+.kids_img {
+    max-width: 168px;
+    border-radius: 15px;
+}
+
+.teachers_img {
+    max-width: 237px; 
+    border-radius: 15px;
+}
+
+.researchers_img {
+    min-width: 288px;
+    border-radius: 15px;
+}
+
+.about_img{
+    max-width: 266px;
+    border-radius: 15px;
+}
+
+.welcome {
+    background: url(../images/Banner.jpg);
+    background-size: cover;
+    min-height: 30vh;
+    background-position-x: center;
+}
+
+.news > div {
+    display: flex;
+    max-width: 350px;
+    margin: 80px auto;
+    flex-direction: column-reverse;
+}
+
+.news-content > div {
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+}
+
+.exhibits-content {
+    display: flex;
+    flex-direction: column;
+    margin: 40px;
+}
+
+.exhibits-content > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.explore-content {
+    display: flex;
+    flex-direction: column;
+    margin: 40px;
+}
+
+.explore-content > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.about > div {
+    display: flex;
+    max-width: 350px;
+    margin: 80px auto;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+.about-content > div {
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+    align-items: center;
+    padding: 50px;
+}
+
+.cta-div {
+    text-align: center;
+    padding: 40px;
+}
+
+.information-section li {
+    margin: 15px;
+}
+

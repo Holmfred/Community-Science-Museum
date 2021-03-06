@@ -1,5 +1,9 @@
-a {
-    text-decoration: none;
+@import "imports/links.css";
+
+body {
+    background: #f2f2f2;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0px;
 }
 
 h1 {
@@ -14,7 +18,12 @@ h2 {
 
 h3 {
     font-size: 30px;
-    text-align: center;
+}
+
+.logo_text {
+    font-size: 23px;
+    display: block;
+    margin-left: 15px;
 }
 
 header {
@@ -27,21 +36,17 @@ header {
 
 .searchbar_line {
     background-color: #807F75;
-    height: 50px;
     text-align: center;
+    padding: 20px;
 }
 
 .searchbar {
     width: 300px;
     border-radius: 10px;
     border: 0px; 
-    height: 30px;
-}
-
-
-.cta-button {
-    background-color: #D1D0C1;
-    min-width: 325px;
+    height: 35px;
+    margin: 0px auto;
+    font-size: 25px;
 }
 
 .cta-menu{
@@ -77,10 +82,29 @@ nav li {
     padding: 10px;
 }
 
+.top {
+    text-align: center;
+    padding: 20px;
+    width: 267px;
+    margin: auto;
+}
+
 footer {
     background: #807F75;
     color: #f2f2f2;
     text-align: center;
     padding: 10px;
     font-size: 15px;
+}
+
+.logo_full {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    font-weight: 700;
+}
+
+.fa-bars {
+    font-size: 60px;
 }
