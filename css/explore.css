@@ -2,3 +2,26 @@
 .researchers {
     background: #e1e1e1;
 }
+
+.kids-content,
+.teachers-content,
+.researchers-content{
+    display: flex;
+    flex-direction: column;
+    max-width: 350px;
+    margin: auto;
+    padding: 30px;
+    align-items: center;
+}
+
+.researchers-content_img {
+    min-width: 297px;
+}
+
+.kids-content_img {
+    min-width: 237px;
+}
+
+.teachers-content_img {
+    min-width: 297px;
+}
