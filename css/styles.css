@@ -108,3 +108,10 @@ footer {
 .fa-bars {
     font-size: 60px;
 }
+
+.welcome {
+    background: url(../images/Banner.jpg);
+    background-size: cover;
+    min-height: 30vh;
+    background-position-x: center;
+}
