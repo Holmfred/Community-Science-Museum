@@ -31,6 +31,11 @@
         margin-left: 40px;
         font-size: 20px;
     }
+
+    .send{
+        padding: 10px 60px;
+        font-size: 25px;
+    }
 }
 
 @media (min-width: 800px) {

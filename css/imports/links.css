@@ -14,3 +14,13 @@ a {
     margin-top: 50px;
     text-align: center;
 }
+
+.cta-menu {
+    background-color: #fff;
+    border: solid 1px #0d0d0d;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 5px;
+    display: flex;
+    min-width: 200px;
+}

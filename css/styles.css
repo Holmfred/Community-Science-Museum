@@ -47,15 +47,8 @@ header {
     height: 35px;
     margin: 0px auto;
     font-size: 25px;
-}
-
-.cta-menu{
-    min-width: 250px;
-    min-height: 30px;
-    font-size: 20;
-    background-color:#f2f2f2;
-    border-radius: 1px;
-    border: #707070;
+    padding: 0px;
+    
 }
 
 #hamburger-menu {
@@ -75,11 +68,14 @@ nav {
     z-index: 1000;
     right: 0px;
     background-color: #D1D0C1;
+    margin-top: 48px;
+    border-bottom: solid 1px #000;
+    border-left: solid 1px #000;
 }
 
 nav li {
     display: block;
-    padding: 10px;
+    padding: 15px;
 }
 
 .top {
