@@ -1,3 +1,11 @@
+@media (min-witdht:500px) {
+    
+    .container {
+        max-width: 450px;
+    }
+}
+
+
 @media (min-width:627px) {
     .searchbar {
         width: 500px;
@@ -36,6 +44,15 @@
         padding: 10px 60px;
         font-size: 25px;
     }
+
+    .container {
+        max-width: 550px;
+    }
+    
+    button {
+        font-size: 20px;
+        width: 300px;
+    }
 }
 
 @media (min-width: 800px) {
@@ -73,6 +90,10 @@
 
     .form-wrapper {
         flex-direction: row;
+    }
+
+    .container {
+        max-width: 700px;
     }
 
 }
@@ -187,6 +208,17 @@
     
     .teachers-content_img {
         margin-left: 40px;
+    }
+
+    .container {
+        max-width: 900px;
+    }
+}
+
+@media (min-width:1300px) {
+    
+    .container {
+        max-width: 1250px;
     }
 }
 
